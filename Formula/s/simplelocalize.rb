@@ -6,6 +6,7 @@ class Simplelocalize < Formula
 
   url "https://github.com/simplelocalize/simplelocalize-cli/releases/download/2.5.1/simplelocalize-cli-2.5.1.jar"
   sha256 "0b4cdfe50272127a5be62f9e6dede13ca8e30605f3e2dd1aad7de76d12bfae58"
+  license "MIT"
 
   depends_on "openjdk@21" => :build if Hardware::CPU.arm?
   depends_on "openjdk@21" => :build if Hardware::CPU.intel?
